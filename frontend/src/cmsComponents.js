@@ -1,13 +1,12 @@
-import Headline from "./components/Headline"
-import Image from "./components/Image"
-import Link from "./components/Link"
-import Linklist from "./components/Linklist"
-import Summary from "./components/Summary"
-import Teaser from "./components/Teaser"
-import Text from "./components/Text"
-import ContentPage from "./pages/ContentPage"
-import HomePage from "./pages/HomePage"
-import ProductPage from "./pages/ProductPage"
+import Headline from "./components/Headline";
+import Image from "./components/Image";
+import Link from "./components/Link";
+import Linklist from "./components/Linklist";
+import Summary from "./components/Summary";
+import Teaser from "./components/Teaser";
+import Text from "./components/Text";
+import Article from "./pages/Article";
+import Start from "./pages/Start";
 
 export const CmsComponents = {
   Headline,
@@ -17,7 +16,6 @@ export const CmsComponents = {
   Summary,
   Teaser,
   Text,
-  HomePage,
-  ProductPage,
-  ContentPage,
-}
+  Start,
+  Article,
+};

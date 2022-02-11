@@ -1,7 +1,7 @@
 import React from "react";
 
-function Artikel() {
+function Article() {
   return <div>Hello Artikel</div>;
 }
 
-export default Artikel;
+export default Article;

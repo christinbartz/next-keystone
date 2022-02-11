@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Startseite",
+    "content": [
+      {
+        "text": "<p>Lorem Ipsum</p>\n",
+        "template": "Text"
+      },
+      {
+        "title": "Headline",
+        "template": "Headline"
+      },
+      {
+        "text": "Dies ist der Teaser Text",
+        "label": "Hier ist ein Link",
+        "title": "Dies ist der Teaser Title",
+        "template": "Teaser"
+      }
+    ],
+    "path": "/",
+    "template": "Start",
+    "link": "/"
+  },
+
+  {
+    "title": "Artikel Nr. 1",
+    "content": [
+      {
+        "text": "<p>Lorem Ipsum</p>\n",
+        "template": "Text"
+      },
+      {
+        "title": "Headline",
+        "template": "Headline"
+      },
+      {
+        "text": "Dies ist der Teaser Text",
+        "label": "Hier ist ein Link",
+        "title": "Dies ist der Teaser Title",
+        "template": "Teaser"
+      }
+    ],
+    "path": "/article",
+    "template": "Article",
+    "link": "/article"
+  }
+]
