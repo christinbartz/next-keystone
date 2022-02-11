@@ -1,3 +1,5 @@
+@import "bulma/css/bulma.css";
+
 html,
 body {
   padding: 0;
@@ -13,4 +15,10 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+/* component-styles */
+
+.image_img {
+  max-width: 300px;
 }
