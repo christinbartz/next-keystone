@@ -5,8 +5,12 @@ import Linklist from "./components/Linklist";
 import Summary from "./components/Summary";
 import Teaser from "./components/Teaser";
 import Text from "./components/Text";
+import Button from "./components/Button";
+import NumberBox from "./components/NumberBox";
+
 import Article from "./pages/Article";
 import Start from "./pages/Start";
+import Content from "./pages/Content";
 
 export const CmsComponents = {
   Headline,
@@ -16,6 +20,10 @@ export const CmsComponents = {
   Summary,
   Teaser,
   Text,
+  Button,
+  NumberBox,
+
   Start,
   Article,
+  Content,
 };

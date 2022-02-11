@@ -1,12 +1,12 @@
-import React from "react"
+import React from "react";
 
-function Image({ image, caption }) {
+function Image({ src, caption }) {
   return (
-    <figure>
-      <img src={image} alt="" />
-      <figcaption>{caption}</figcaption>
+    <figure className="image">
+      <img className="image_img" src={src} alt={caption} />
+      <figcaption className="image_caption">{caption}</figcaption>
     </figure>
-  )
+  );
 }
 
-export default Image
+export default Image;
